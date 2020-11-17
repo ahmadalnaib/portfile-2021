@@ -14,7 +14,7 @@ const Services = () => {
 
           <div className="card">
             <div className="icon">
-              <img src={hosting} />
+              <img src={hosting}  alt="host"/>
               <h3>Efficient</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -22,7 +22,7 @@ const Services = () => {
 
           <div className="card">
             <div className="icon">
-              <img src={idea} />
+              <img src={idea} alt="idea"/>
               <h3>Efficient</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -30,7 +30,7 @@ const Services = () => {
 
           <div className="card">
             <div className="icon">
-              <img src={icon1} />
+              <img src={icon1}  alt="icon"/>
               <h3>Efficient</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -38,7 +38,7 @@ const Services = () => {
 
           <div className="card">
             <div className="icon">
-              <img src={icon2} />
+              <img src={icon2}  alt="icon"/>
               <h3>Efficient</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -47,7 +47,7 @@ const Services = () => {
         </div>
       </div>
       <div className="image">
-        <img src={photo} alt="photo"/>
+        <img src={photo} alt="p"/>
       </div>
     </div>
   )
